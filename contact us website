@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <h1 style="color: rgb(255, 255, 255);">
+Contact Us
+        </h1>
+    </head>
+<body style="background-color: black;">
+    
+
+
+        <form>
+
+            <div>
+            <label style="color: white; font-size: larger" for="fname">First Name:</label>
+            <input style="font-size: 15px;" type="text" id="fname" name="fname" required><br><br>
+        </div>
+
+    <div>
+            <label style="color: white; font-size: larger" for="lname">Last Name:</label>
+            <input style="font-size: 15px;" type="text" id="lname" name="lname" required><br><br>
+        </div>
+
+    <div>
+            <label style="color: white; font-size: larger" for="email">Email Address:</label>
+            <input style="font-size: 15px;" type="email" id="email" name="email" required><br><br>
+        </div>
+
+    <div>
+            <label style="color: white; font-size: larger"for="phoneNumber">Phone Number:</label>
+            <input style="font-size: 15px;" type="tel" id="phoneNumber" name="phoneNumber" minlength="10" maxlength="10" required><br><br>
+
+        </div>
+            <input style="font-size: larger;" type="submit" value="Submit">
+            
+
+            
+            
+            <button style="font-size: larger" onclick="document.getElementById('myInput').value = ''">Cancel</button>
+            
+          </form>
+
+</body>
+</html>
